@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# myWeb
-=======
 Sahosoft sample website
 
 Files:
@@ -16,4 +13,3 @@ Preview locally:
 Open `index.html` in your browser (double-click or use a local server).
 
 Want me to deploy this to GitHub Pages or add a favicon and local logo assets? Reply and I'll do it.
->>>>>>> 89bad07 (First Commit.Basic sturucture of the website is added.)
