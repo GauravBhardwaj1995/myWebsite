@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — Sahosoft</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+          <img
+            src="https://www.sahosofttech.com/assets/images/sahosoftlogo.webp"
+            alt="sahosoft logo"
+          />
+          <span class="brand-text">Sahosoft</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Contact Us</h1>
+      <p class="lead">
+        Have a project in mind? Send us a message and we'll respond quickly.
+      </p>
+
+      <form class="form" id="contactForm">
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Your name"
+          required
+        />
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Your email"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          placeholder="Message"
+        ></textarea>
+        <button type="submit">Send message</button>
+      </form>
+
+      <p style="text-align: center; margin-top: 1rem">
+        <a href="index.html">Back to Home</a>
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>Sahosoft</strong>
+          <p>Design • Build • Deploy</p>
+        </div>
+        <div>
+          <p><a href="about.html">About</a> • <a href="index.html">Home</a></p>
+        </div>
+        <div>
+          <p>&copy; 2025 Sahosoft Technologies</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
